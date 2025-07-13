@@ -16,4 +16,4 @@ from .bluesky_pipeline import bluesky_posts_source
 )
 def bluesky_data_asset(context: AssetExecutionContext, dlt: DagsterDltResource):
     logger = get_dagster_logger()
-    logger.info("Starting DLT pipeline execution")
+    logger.info("Starting dlt pipeline execution")

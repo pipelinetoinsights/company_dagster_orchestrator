@@ -16,4 +16,4 @@ from .seveneleven_pipeline import fuel_price_source
 )
 def seven_eleven_data_asset(context: AssetExecutionContext, dlt: DagsterDltResource):
     logger = get_dagster_logger()
-    logger.info("Starting DLT pipeline execution")
+    logger.info("Starting dlt pipeline execution")
