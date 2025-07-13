@@ -21,8 +21,27 @@ This project demonstrates two main data ingestion pipelines:
    ```bash
    git clone <repository-url>
    cd dagster_training
-   
+   ```
 
+   create secrects.toml insdie .dlt and add your secrets
+     ```bash
+   [bluesky_api.destination.postgres.credentials]
+   database = ""
+   username = ""
+   password = "" # replace with your password
+   host = "" # or the IP address location of your database
+   port = 5432
+   connect_timeout = 15
+
+   [seven_eleven.destination.postgres.credentials]
+   database = ""
+   username = ""
+   password = "" # replace with your password
+   host = "" # or the IP address location of your database
+   port = 5432
+   connect_timeout = 15
+   ```
+   
 2. **Install dependencies**
    ```bash
    pip install -e .
