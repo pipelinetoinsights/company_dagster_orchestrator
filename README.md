@@ -20,7 +20,6 @@ This project demonstrates two main data ingestion pipelines:
 1. **Clone and setup environment**
    ```bash
    git clone <repository-url>
-   cd dagster_training
    ```
 
    create secrects.toml insdie .dlt and add your secrets
