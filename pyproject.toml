@@ -1,0 +1,25 @@
+[project]
+name = "digital_service_orchestrator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9,<3.13"
+dependencies = [
+    "dagster",
+    "dlt[postgres]",
+    "dagster-embedded-elt",
+    "pandas"
+]
+
+[project.optional-dependencies]
+dev = [
+    "dagster-webserver", 
+    "pytest",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.dagster]
+modules = [{ type = "module", name = "bluesky_project" }, { type = "module", name = "seven_eleven_project" }]

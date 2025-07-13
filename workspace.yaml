@@ -1,0 +1,8 @@
+load_from:
+  - python_module:
+      module_name: bluesky_project.definitions
+  - python_module:
+      module_name: seven_eleven_project.definitions
+
+  
+      

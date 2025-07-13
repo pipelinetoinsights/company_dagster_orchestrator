@@ -1,0 +1,15 @@
+.env
+.dlt
+.vscode 
+.venv
+.tmp*
+.nux 
+history
+schedules
+storage 
+logs
+__pycache__
+*.pyc
+*.egg-info
+*_venv
+*.log
