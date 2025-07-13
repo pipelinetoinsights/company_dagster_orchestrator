@@ -1,13 +1,13 @@
 # Dagster Training Project
 
-A data orchestration system built with **Dagster** and **dlt** that collects fuel price data and social media posts and stores them in PostgreSQL.
+A data orchestration project built with **Dagster** and **dlt** that collects fuel price data and social media posts and stores them in PostgreSQL.
 This repository is prepared by  [Pipeline To Insights](https://pipeline2insights.substack.com/)  for tutorial purposes.
 ## Project Overview
 
 This project demonstrates two main data ingestion pipelines:
 
-1. **Bluesky Social Media Posts** - Collects posts about fuel prices
-2. **Seven Eleven Fuel Price Data** - Gathers fuel price information from Australian fuel stations.
+1. **Bluesky Social Media Posts** : Collects posts about fuel prices
+2. **Seven Eleven Fuel Price Data** : Gathers fuel price information from Australian fuel stations.
 
 ## Quick Start
 
@@ -17,12 +17,12 @@ This project demonstrates two main data ingestion pipelines:
 
 ### Installation
 
-1. **Clone and setup environment**
+1. **Clone and set up the environment**
    ```bash
    git clone <repository-url>
    ```
 
-   create secrects.toml insdie .dlt and add your secrets
+   create secrets.toml inside .dlt and add your secrets
      ```bash
    [bluesky_api.destination.postgres.credentials]
    database = ""
@@ -87,7 +87,7 @@ company_orchestrator/
 ### Seven Eleven Pipeline
 - Collects actual fuel price data from Australian stations
 - Includes geographic data (latitude/longitude)
-- Overwrites existing data with latest prices
+- Overwrites existing data with the latest prices
 
 ## Configuration
 
