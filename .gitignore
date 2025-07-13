@@ -1,5 +1,4 @@
 .env
-.dlt
 .vscode 
 .venv
 .tmp*
@@ -13,3 +12,4 @@ __pycache__
 *.egg-info
 *_venv
 *.log
+secrects.toml
